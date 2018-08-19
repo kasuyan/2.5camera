@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import charaImage from "./snap.png";
 
 class Camera extends Component {
   constructor(props) {
