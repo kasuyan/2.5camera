@@ -1,0 +1,12 @@
+{
+  "name": "2.5camera",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kasuyan/2.5camera.git",
+  "author": "kasuyan <kasuya725@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "create-react-app": "^1.5.2",
+    "webpack": "^4.16.5"
+  }
+}
