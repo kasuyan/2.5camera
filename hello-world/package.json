@@ -12,7 +12,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "prod": "gh-pages -d build"
+    "prod": "react-scripts build && gh-pages -d build"
   },
   "homepage": "https://kasuyan.github.io/2.5camera/",
   "devDependencies": {

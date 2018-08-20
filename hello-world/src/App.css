@@ -1,28 +1,40 @@
-.App {
-  text-align: center;
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+button {
+  padding: 15px;
+  border: none;
+  background-color: #ccc;
 }
 
-.App-title {
-  font-size: 1.5em;
+.btn-01 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
 }
 
-.App-intro {
-  font-size: large;
+.btn-02 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.btn-03 {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  z-index: 3;
 }
